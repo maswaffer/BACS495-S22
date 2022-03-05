@@ -1,15 +1,17 @@
 import './App.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
-import Body from './Body';
-import Blocks from './Blocks';
+// import Body from './Body';
+// import Blocks from './Blocks';
+import Users from './Users';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Body/>
-      <Blocks/>
+      <Users/>
+      {/* <Body/>
+      <Blocks/> */}
       <Footer/>
     </div>
   );

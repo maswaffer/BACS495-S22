@@ -32,10 +32,10 @@ router.post("/", function(req, res, next){
     "id": req.body.id,
     "name": req.body.name
   }
-
+  console.log(user);
   var db = req.app.locals.db; 
   db.collection("users").insertOne(user); 
-  res.send("User inserted");
+  res.json({"message":"User inserted"});
 });
 
 module.exports = router;

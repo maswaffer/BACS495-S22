@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header({myName}) {
   return <header className="App-header">
-    Learn React 
+    BACS 495 React Demo
 </header>;
 }
 
