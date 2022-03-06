@@ -5,7 +5,7 @@ function UserInput(props) {
   const [id, setId] = useState(0);
   const createUser = (e) =>{
     var insert = {'id': id, 'name': name}
-    fetch('http://localhost:5000/users', 
+    fetch(process.env.REACT_APP_API_URL, 
         {
             method:'POST', 
             body: JSON.stringify(insert),

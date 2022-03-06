@@ -7,7 +7,7 @@ function Users() {
   const [update, setUpdate] = useState(0);
 
   useEffect(() => {
-    fetch('http://localhost:5000/users')  
+    fetch(process.env.REACT_APP_API_URL)  
       .then(res => res.json())
       .then(data => setUsers(data))
   }, [update])
