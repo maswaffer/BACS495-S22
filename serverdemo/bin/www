@@ -20,7 +20,7 @@ app.set('port', port);
   Matt's DB 
   "mongodb+srv://bacs495:BACS495@cluster0.x7lcj.mongodb.net/serverdemo?retryWrites=true&w=majority"
 */
-MongoClient.connect(<configure me here>, 
+MongoClient.connect("mongodb+srv://bacs495:BACS495@cluster0.x7lcj.mongodb.net/serverdemo?retryWrites=true&w=majority", 
   function(err, client){
     if(err) throw err;
     db = client.db("serverdemo");
