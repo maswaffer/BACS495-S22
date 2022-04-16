@@ -17,7 +17,8 @@ function App() {
       <Questions/>
       <Users/>
        <Body/>
-      <Blocks/> */}
+      <Blocks/> 
+      */}
       <Footer/>
     </div>
   );
