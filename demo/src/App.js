@@ -4,17 +4,18 @@ import Footer from './Footer.js';
 // import Body from './Body';
 // import Blocks from './Blocks';
 // import Users from './Users';
-import SubmitQuestion from './Questions/SubmitQuestion';
-import Questions from './Questions/Questions';
+//import SubmitQuestion from './Questions/SubmitQuestion';
+//import Questions from './Questions/Questions';
+import Lights from './Lights';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <SubmitQuestion/>
-      <hr/>
+      <Lights/>
+      {/*<hr/>
       <Questions/>
-      {/*<Users/>
+      <Users/>
        <Body/>
       <Blocks/> */}
       <Footer/>
