@@ -10,8 +10,8 @@ router.get('/', function(req, res, next) {
     .then(result => {
       console.log(result);
       //res.json(result)
-      var obj = JSON.parse(result);
-      res.send(obj.color);
+     
+      res.send(result.color);
     });
 });
 
