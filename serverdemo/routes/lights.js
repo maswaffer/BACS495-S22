@@ -9,7 +9,9 @@ router.get('/', function(req, res, next) {
     .findOne()
     .then(result => {
       console.log(result);
-      res.json(result)
+      //res.json(result)
+      var obj = JSON.parse(result);
+      res.send(obj.color);
     });
 });
 
