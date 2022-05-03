@@ -8,6 +8,7 @@
 const char* host = "bacs-495-s-22-server-3kr92.ondigitalocean.app";
 const char* fingerprint = "5a78e7c7e7d6f5e387a1ba91ae2f45e63a8e725f";
 
+
 void setup()
 {
   Serial.begin(115200);
